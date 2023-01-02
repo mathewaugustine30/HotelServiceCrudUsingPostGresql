@@ -1,0 +1,12 @@
+server:
+  port: 8011
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springbootwebapp
+    username: postgres
+    password: mathew
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
